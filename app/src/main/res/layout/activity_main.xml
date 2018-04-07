@@ -19,14 +19,15 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/lication_text"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:hint="@string/hint_input_name"
                 android:gravity="center_vertical"
-                android:inputType="textImeMultiLine"
                 android:layout_weight="1"/>
 
             <Button
+                android:id="@+id/search_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -36,9 +37,9 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/temp_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:textSize="30dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
